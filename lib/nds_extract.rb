@@ -55,6 +55,7 @@ def total_gross(source)
     grandTotal += gross_for_director(source[director_index])
     director_index += 1
   end
+  grandTotal
 end
 
 
